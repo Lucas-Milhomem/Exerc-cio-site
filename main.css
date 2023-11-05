@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+header {
+    background-color: rgb(10, 10, 153);
+    padding: 16px;
+    margin-block-end: 0em;
+}
+header h1 {
+    color: antiquewhite;
+    padding: 16px;
+    font-size: 80px;
+    font-family: 'agbalumo', serif;
+    text-align: center;
+}
+
+header a {
+    position: absolute;
+    top: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 1650px;
+    font-style: italic;   
+}
+
+header li a {
+    color: antiquewhite;
+    top: 80px;
+    font-style: italic;
+}
+
+header div a {
+    color: rgb(0, 0, 0);
+    margin-left: 1600px;
+    position: fixed;
+    top: 850px;
+    padding-left: 30px;
+    font-style: oblique;
+    
+}
+
+section {
+    margin: 0;
+}
+
+section h2,
+section.q {
+    text-align: center;
+    color: azure;
+    background-color: black;
+    padding: 20px;
+}
+
+section.q a {
+    color: chartreuse;
+    padding: 50px;
+}
+
+.container .articles {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    
+}
+
+
+section .articles img {
+    padding: 10px;
+    margin-inline-end: 0;
+    display: flex;
+    width: 300px;
+    height: 250px;
+}
+
+
+section h3 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    text-align: center;
+    top: -250px;
+}
+
+section .articles p {
+    color: rgb(8, 24, 131);
+    margin-inline-end: 500px;
+    margin-inline-start: 310px;
+    font-size: 20px;
+    top: -200px;
+    position: relative;
+    padding: 10px;
+}
+
+
+section form {
+    background-color: rgba(61, 61, 233, 0.411);
+    padding: 10px;
+}
+
+section h4 {
+    background-color: rgb(10, 10, 153);
+    font-style: oblique;
+    color: rgb(246, 248, 255); 
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 0px;
+}
+
+section input {
+    background-color: rgb(255, 255, 255);
+}
+section button {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+section input,
+section button { 
+    text-align: center;
+    display: grid;
+    padding: 6px;
+    margin: 16px;
+    margin-top: 0px;
+    padding-bottom: 8px;
+}
+
+section button {
+    margin: 0;
+    margin-left: 16px;
+    
+}
+
+section h5 {
+    background-color: rgb(10, 10, 153);
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 10;
+    margin-top: 0;
+}
+
+section h6 {
+    background-color: rgb(10, 10, 153);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+section textarea {
+    margin-left: 16px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+    
+footer {
+    text-align: center;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 10, 153);
+    padding: 50px;
+}
+
